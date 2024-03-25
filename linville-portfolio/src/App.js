@@ -1,17 +1,13 @@
-import './App.css';
+import React from 'react';
+import Portfolio from './components/Portfolio';
+import '../src/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a>
-          Sarah Susanne Linville
-          <br />
-          Journalist & Photographer
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Portfolio />
+    </>
+  )
 }
 
 export default App;
